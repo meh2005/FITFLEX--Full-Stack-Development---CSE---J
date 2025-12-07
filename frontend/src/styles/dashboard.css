@@ -1,0 +1,159 @@
+/* DASHBOARD MAIN LAYOUT */
+.dashboard-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background: #f3f4f6;
+}
+
+/* MAIN SECTION */
+.dashboard-main {
+  flex: 1;
+  padding: 22px;
+}
+
+/* PAGE TITLE */
+.dashboard-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* GRID SECTIONS */
+.dashboard-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 22px;
+  margin-bottom: 22px;
+}
+
+/* CARDS / PANELS (large) */
+.panel {
+  background: white;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Stats grid */
+.stats-boxes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+/* Individual stat box */
+.stat-box {
+  background: white;
+  border-radius: 12px;
+  padding: 14px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.stat-title {
+  color: #6b7280;
+  font-size: 14px;
+}
+.stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+/* Water tracker buttons */
+.water-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-family: inherit;
+}
+.water-plus {
+  background: #2563eb;
+}
+.water-plus-half {
+  background: #4f46e5;
+}
+.water-minus {
+  background: #6b7280;
+}
+
+/* ACTIVITY FEED */
+.activity-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px;
+  margin-bottom: 8px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.activity-icon {
+  width: 42px;
+  height: 42px;
+  background: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #4b5563;
+}
+
+.activity-text {
+  flex-grow: 1;
+}
+
+.activity-title {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.activity-desc {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* BUTTON BLOCK (below water tracker) */
+.dashboard-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  font-family: inherit;
+  margin-top: 6px;
+}
+
+.btn-log-workout {
+  background: #2563eb;
+}
+.btn-add-workout {
+  background: #059669;
+}
+
+/* WEEKLY CHART CONTAINER */
+.chart-panel {
+  background: white;
+  border-radius: 12px;
+  padding: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  margin-top: 22px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .dashboard-row {
+    grid-template-columns: 1fr;
+  }
+  .stats-boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

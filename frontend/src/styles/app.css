@@ -1,0 +1,130 @@
+/* Global Font */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default button styling */
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Inputs */
+input, select {
+  font-family: inherit;
+}
+
+input:disabled {
+  background-color: #e5e7eb;
+  cursor: not-allowed;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Card UI styling */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: 0.2s ease;
+}
+.card:hover {
+  box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+}
+
+/* Sidebar */
+.sidebar {
+  background: #111827;
+  color: white;
+  height: 100vh;
+  width: 260px;
+  padding: 20px;
+}
+
+/* Sidebar buttons */
+.sidebar button {
+  width: 100%;
+  text-align: left;
+  color: white;
+  background: transparent;
+  padding: 10px 14px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 6px;
+}
+.sidebar button:hover {
+  background: #374151;
+}
+
+/* Primary Button */
+.btn-primary {
+  background: #2563eb;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: none;
+  transition: 0.2s;
+}
+.btn-primary:hover {
+  background: #1e4fd6;
+}
+
+/* Secondary Button */
+.btn-secondary {
+  background: #6b7280;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: none;
+}
+.btn-secondary:hover {
+  background: #5a6572;
+}
+
+/* Error text */
+.error {
+  color: #dc2626;
+  font-size: 14px;
+}
+
+/* Success text */
+.success {
+  color: #16a34a;
+  font-size: 14px;
+}
+
+/* Center container (login, signup layouts) */
+.center-box {
+  background: white;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.08);
+}
+
+/* Utility */
+.mt-1 { margin-top: 4px; }
+.mt-2 { margin-top: 8px; }
+.mt-3 { margin-top: 12px; }
+.mt-4 { margin-top: 16px; }
+
+.mb-1 { margin-bottom: 4px; }
+.mb-2 { margin-bottom: 8px; }
+.mb-3 { margin-bottom: 12px; }
+.mb-4 { margin-bottom: 16px; }
+
+.text-center { text-align: center; }

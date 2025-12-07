@@ -1,0 +1,255 @@
+{
+  "users": [
+    {
+      "id": "1764662497980",
+      "name": "Mehrosh",
+      "email": "abc@gmail.com",
+      "phone": "1234567891",
+      "password": "1234",
+      "height": 160,
+      "weight": 60,
+      "gender": "female",
+      "steps": 2800,
+      "calories": 451,
+      "activeMinutes": 60,
+      "waterGlasses": 6,
+      "workouts": [
+        {
+          "id": 170000000001,
+          "type": "Running",
+          "duration": 10,
+          "calories": 103,
+          "time": "2025-12-03T13:30:00"
+        },
+        {
+          "id": 1764782092095,
+          "type": "Swimming",
+          "duration": 20,
+          "calories": 206,
+          "time": "2025-12-03T17:14:52.095Z"
+        },
+        {
+          "id": 1764830060265,
+          "type": "Fast walking",
+          "duration": 10,
+          "calories": 42,
+          "time": "2025-12-04T06:34:20.265Z"
+        },
+        {
+          "id": 1764831554710,
+          "type": "plank",
+          "duration": 10,
+          "calories": 53,
+          "time": "2025-12-04T06:59:14.710Z"
+        },
+        {
+          "id": 1764831659297,
+          "type": "Running",
+          "duration": 10,
+          "calories": 47,
+          "time": "2025-12-04T07:00:59.297Z"
+        }
+      ],
+      "activities": [
+        {
+          "type": "plank",
+          "desc": "10 mins • 53 calories",
+          "time": "2025-12-04T06:59:14.710Z"
+        }
+      ],
+      "profile": {
+        "goals": {
+          "steps": 10000,
+          "calories": 800,
+          "activeMinutes": 60,
+          "waterGlasses": 8
+        }
+      },
+      "createdAt": "2025-12-03T10:15:00"
+    },
+    {
+      "id": "1764739094819",
+      "name": "Faiz",
+      "email": "xyz@gmail.com",
+      "phone": "0123456789",
+      "password": "1234",
+      "height": 150,
+      "weight": 70,
+      "gender": "male",
+      "steps": 0,
+      "calories": 0,
+      "activeMinutes": 0,
+      "waterGlasses": 1,
+      "workouts": [],
+      "activities": [],
+      "profile": {
+        "goals": {
+          "steps": 10000,
+          "calories": 800,
+          "activeMinutes": 60,
+          "waterGlasses": 8
+        }
+      },
+      "createdAt": "2025-12-03T10:30:00"
+    },
+    {
+      "id": "240a",
+      "name": "mehrosh",
+      "email": "azmath@gmail.com",
+      "phone": "1234567891",
+      "password": "1230",
+      "height": "150",
+      "weight": "64",
+      "gender": "male",
+      "steps": 0,
+      "calories": 0,
+      "activeMinutes": 0,
+      "waterGlasses": 0,
+      "workouts": [],
+      "activities": [],
+      "profile": {
+        "goals": {
+          "steps": 10000,
+          "calories": 500,
+          "activeMinutes": 30,
+          "waterGlasses": 8
+        }
+      },
+      "createdAt": "2025-12-04T05:04:39.070Z"
+    },
+    {
+      "id": "1bc8",
+      "name": "Hema",
+      "email": "hema@gmail.com",
+      "phone": "5149846506",
+      "password": "abc@",
+      "height": "160",
+      "weight": "59",
+      "gender": "female",
+      "steps": 0,
+      "calories": 0,
+      "activeMinutes": 0,
+      "waterGlasses": 2,
+      "workouts": [
+        {
+          "id": 1764825019562,
+          "type": "Cycling",
+          "duration": 10,
+          "calories": 77,
+          "time": "2025-12-04T05:10:19.562Z"
+        },
+        {
+          "id": 1764825213118,
+          "type": "Swimming",
+          "duration": 20,
+          "calories": 165,
+          "time": "2025-12-04T05:13:33.118Z"
+        },
+        {
+          "id": 1764825361255,
+          "type": "Walking",
+          "duration": 10,
+          "calories": 39,
+          "time": "2025-12-04T05:16:01.255Z"
+        }
+      ],
+      "activities": [
+        {
+          "type": "Swimming",
+          "desc": "20 mins • 165 calories",
+          "time": "2025-12-04T05:13:33.118Z"
+        },
+        {
+          "type": "Walking",
+          "desc": "10 mins • 39 calories",
+          "time": "2025-12-04T05:16:01.255Z"
+        }
+      ],
+      "profile": {
+        "goals": {
+          "steps": 10000,
+          "calories": 500,
+          "activeMinutes": 30,
+          "waterGlasses": 8
+        }
+      },
+      "createdAt": "2025-12-04T05:09:40.423Z"
+    },
+    {
+      "id": "ade7",
+      "name": "madhuri",
+      "email": "mdakshitha@gmail.com",
+      "phone": "9959905312",
+      "password": "madhuri@15",
+      "height": "159",
+      "weight": "53",
+      "gender": "female",
+      "steps": 20000,
+      "calories": 547,
+      "activeMinutes": 160,
+      "waterGlasses": 3,
+      "workouts": [
+        {
+          "id": 1764834734737,
+          "type": "bellyfat",
+          "duration": 50,
+          "calories": 46,
+          "time": "2025-12-04T07:52:14.737Z"
+        },
+        {
+          "id": 1764834765714,
+          "type": "bellyfat",
+          "duration": 50,
+          "calories": 186,
+          "time": "2025-12-04T07:52:45.714Z"
+        },
+        {
+          "id": 1764834905320,
+          "type": "yoga",
+          "duration": 50,
+          "calories": 278,
+          "time": "2025-12-04T07:55:05.320Z",
+          "activityType": "Strength Training"
+        },
+        {
+          "id": 1764843297613,
+          "type": "Running",
+          "duration": 10,
+          "calories": 37,
+          "time": "2025-12-04T10:14:57.613Z"
+        }
+      ],
+      "activities": [
+        {
+          "type": "Running",
+          "desc": "10 mins • 37 calories",
+          "time": "2025-12-04T10:14:57.613Z"
+        },
+        {
+          "type": "yoga",
+          "desc": "50 mins • 278 calories",
+          "time": "2025-12-04T07:55:05.320Z"
+        },
+        {
+          "type": "bellyfat",
+          "desc": "50 mins • 186 calories",
+          "time": "2025-12-04T07:52:45.714Z"
+        },
+        {
+          "type": "bellyfat",
+          "desc": "50 mins • 46 calories",
+          "time": "2025-12-04T07:52:14.737Z"
+        }
+      ],
+      "profile": {
+        "goals": {
+          "steps": 10000,
+          "calories": 500,
+          "activeMinutes": 30,
+          "waterGlasses": 8
+        }
+      },
+      "createdAt": "2025-12-04T07:47:13.766Z"
+    }
+  ]
+}
